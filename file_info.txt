@@ -1,0 +1,2 @@
+fir_filter.v,verilog,xil_defaultlib,C:/Users/karan/OneDrive/Desktop/vlsi tasks/task4/xsim/srcs/fir_filter.v,
+glbl.v,Verilog,xil_defaultlib,C:/Users/karan/OneDrive/Desktop/vlsi tasks/task4/xsim/glbl.v
