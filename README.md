@@ -195,3 +195,4 @@ In summary, FIR filters are a type of digital filter that offers simplicity, sta
 
 ## OUTPUT 
 ![1](https://github.com/user-attachments/assets/de0ade08-e538-49f0-9f1c-0c17e23ab65d)
+![WAVE FORM](https://github.com/user-attachments/assets/d047febb-b8b9-483e-96f4-1fb52d155971)
