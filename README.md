@@ -17,7 +17,40 @@
 Finite Impulse Response (FIR) Filter Description
 A Finite Impulse Response (FIR) filter is a type of digital filter that has a finite duration impulse response. It is widely used in digital signal processing applications due to its simplicity and flexibility.
 
+Filter Specifications:
+- Filter Type: Low-pass, high-pass, band-pass, or band-stop
+- Filter Order: The number of taps or coefficients in the filter
+- Cutoff Frequency: The frequency at which the filter starts to attenuate the signal
+- Stopband Attenuation: The amount of attenuation in the stopband
 
+Design Steps:
+1. Determine Filter Specifications: Determine the filter type, order, cutoff frequency, and stopband attenuation based on the application requirements.
+2. Choose a Design Method: Choose a design method such as windowing, frequency sampling, or optimal design.
+3. Calculate Filter Coefficients: Calculate the filter coefficients using the chosen design method.
+4. Implement the Filter: Implement the filter using a digital signal processor or a field-programmable gate array (FPGA).
+
+
+
+FIR Filter Design Formula
+The output sequence of a causal discrete-time FIR filter of order N is given by:
+
+y[n] = ∑[b_i * x[n-i]] from i=0 to N
+
+where:
+- x[n] is the input signal
+- y[n] is the output signal
+- N is the filter order
+- b_i are the filter coefficients
+
+- ![1](https://github.com/user-attachments/assets/0c5c55d9-cece-425d-841d-06386be0c13a)
+
+FIR Filter Design Methods:
+- Windowing Method: This method involves multiplying the ideal filter response with a window function to obtain the filter coefficients.
+- Frequency Sampling Method: This method involves sampling the desired frequency response and using the inverse discrete Fourier transform (IDFT) to obtain the filter coefficients.
+- Optimal Design Method: This method involves using optimization techniques to design the filter coefficients that meet the desired specifications.
+
+![2](https://github.com/user-attachments/assets/2f9d209d-af28-4ecd-8a79-aa5f14d66be3)
+![3](https://github.com/user-attachments/assets/243f2552-2a79-4fb5-a097-22ca56cd7b35)
 
 ## VERILOG CODE 
 
